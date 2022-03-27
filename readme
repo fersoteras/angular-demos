@@ -1,0 +1,4 @@
+This is an implementation fo an input control with thousands separators
+based on the one described on:
+https://medium.com/angular-in-depth/angular-material-matinput-control-with-thousands-separation-ebcbb7b027f4
+but trying to use simple NG_Value_accesor instead of material wrapper.

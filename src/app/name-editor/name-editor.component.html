@@ -1,0 +1,21 @@
+<form [formGroup]="myForm">
+
+  <label>Deposit Amount</label>
+  <input matInput 
+         InputCommified
+         formControlName="deposit"
+         [value]="10"
+         type="text"/>
+
+</form>
+<button [disabled]="myForm.invalid"
+      mat-raised-button
+      color="primary"
+      (click)="onSubmit()"
+>Submit</button>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
